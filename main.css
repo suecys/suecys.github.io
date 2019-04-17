@@ -1,0 +1,39 @@
+/* 셀렉터(태그, id, class 등)를 적고 중괄호를 열고 */
+h1{
+    /* CSS 속성-값 쌍을 적어주고 세미콜론을 붙입니다. */
+    color: lightcoral;
+    font-weight: lighter;
+}
+
+h2{
+    font-weight: lighter;
+    color: hotpink;
+}
+
+img{
+    width: 400px;
+}
+
+/* class 셀렉터는 .으로 시작합니다. */
+/* >는 손자, 증손자 말고 진짜 자식을 선택 */
+ul >.skill {
+    color: teal;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+/* 그냥 띄우면 자식, 손자, 증손자 등... */
+ skill{
+    color: green;
+}
+
+/* id 셀렉터는 #으로 시작합니다. */
+#short-intro{
+    color: hotpink;
+}
+
+#python{
+    color: cornflowerblue;
+}
+
+/* CSS는 좀 더 specific한 기준을 우선순위로 잡는다. */
